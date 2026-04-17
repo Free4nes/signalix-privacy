@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impressum – Signalix</title>
+  <style>
+    :root {
+      --bg: #eaf5ff;
+      --bg-shape: #cfe8ff;
+      --card: #ffffff;
+      --text: #16345f;
+      --text-soft: #5e7494;
+      --primary: #1f6fe5;
+      --primary-dark: #144aa3;
+      --border: rgba(31, 111, 229, 0.12);
+      --shadow: 0 18px 45px rgba(17, 51, 102, 0.12);
+      --radius-xl: 28px;
+      --radius-lg: 22px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    .shape {
+      position: fixed;
+      top: -40px;
+      right: -60px;
+      width: 340px;
+      height: 340px;
+      background: var(--bg-shape);
+      border-radius: 42% 58% 50% 50%;
+      opacity: 0.95;
+      z-index: 0;
+    }
+
+    .wrap {
+      position: relative;
+      z-index: 1;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 42px 20px 60px;
+    }
+
+    .brand {
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--primary-dark);
+      margin-bottom: 26px;
+    }
+
+    .hero {
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: clamp(42px, 7vw, 72px);
+      line-height: 0.95;
+      color: var(--primary-dark);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+
+    .hero p {
+      margin: 0;
+      font-size: clamp(18px, 2vw, 28px);
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      padding: 26px;
+    }
+
+    .section + .section {
+      margin-top: 26px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(22, 52, 95, 0.08);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 14px;
+      line-height: 1.2;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-soft);
+      font-weight: 800;
+    }
+
+    p {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.75;
+      color: var(--text);
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 18px;
+      font-size: 14px;
+      color: var(--text-soft);
+      line-height: 1.6;
+    }
+
+    @media (max-width: 640px) {
+      .wrap {
+        padding: 28px 16px 40px;
+      }
+
+      .card {
+        padding: 20px;
+        border-radius: var(--radius-lg);
+      }
+
+      p {
+        font-size: 17px;
+      }
+
+      .shape {
+        width: 240px;
+        height: 240px;
+        top: -30px;
+        right: -70px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shape"></div>
+
+  <main class="wrap">
+    <div class="brand">Signalix</div>
+
+    <section class="hero">
+      <h1>Impressum</h1>
+      <p>Angaben gemäß § 5 TMG</p>
+    </section>
+
+    <section class="card">
+      <div class="section">
+        <h2>Anbieter</h2>
+        <p>
+          Ricardo Joao Pinto da Costa<br />
+          Wiener Straße 2<br />
+          70469 Stuttgart<br />
+          Deutschland
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Kontakt</h2>
+        <p>
+          E-Mail:
+          <a href="mailto:signalix.kontakt@gmail.com">signalix.kontakt@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+        <p>
+          Ricardo Joao Pinto da Costa<br />
+          Wiener Straße 2<br />
+          70469 Stuttgart<br />
+          Deutschland
+        </p>
+      </div>
+
+      <p class="footer">
+        Stand: April 2026
+      </p>
+    </section>
+  </main>
+</body>
+</html>
