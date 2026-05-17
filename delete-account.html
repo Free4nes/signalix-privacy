@@ -1,1 +1,98 @@
-<!DOCTYPE html> <html lang="de"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>Konto löschen – Signalix</title> <style> :root { --bg: #f6f7fb; --card: #ffffff; --text: #111827; --muted: #6b7280; --line: #e5e7eb; --accent: #1d4ed8; --danger: #b91c1c; } * { box-sizing: border-box; } body { margin: 0; font-family: Inter, Arial, Helvetica, sans-serif; background: var(--bg); color: var(--text); line-height: 1.65; } .wrap { max-width: 920px; margin: 0 auto; padding: 32px 20px 64px; } .hero { background: linear-gradient(135deg, #1d4ed8, #0f766e); color: white; border-radius: 24px; padding: 32px; box-shadow: 0 10px 30px rgba(0,0,0,0.12); margin-bottom: 24px; } .hero h1 { margin: 0 0 8px; font-size: 2rem; } .hero p { margin: 0; opacity: 0.95; } .card { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 28px; box-shadow: 0 6px 18px rgba(0,0,0,0.04); } h2 { margin-top: 28px; margin-bottom: 10px; font-size: 1.25rem; } p, ul { margin-top: 0; margin-bottom: 14px; } ul { padding-left: 22px; } .meta { color: var(--muted); margin-bottom: 20px; } .contact { background: #f9fafb; border: 1px solid var(--line); border-radius: 14px; padding: 16px; } .warning { background: #fff7ed; border: 1px solid #fdba74; border-radius: 14px; padding: 16px; margin: 18px 0; } .warning strong { color: var(--danger); } a { color: var(--accent); } footer { margin-top: 24px; color: var(--muted); font-size: 0.95rem; text-align: center; } @media (max-width: 640px) { .hero, .card { padding: 20px; border-radius: 18px; } .hero h1 { font-size: 1.6rem; } } </style> </head> <body> <div class="wrap"> <section class="hero"> <h1>Konto löschen – Signalix</h1> <p>Informationen und Kontaktmöglichkeit zur Löschung eines Signalix-Kontos und zugehöriger Daten.</p> </section> <section class="card"> <div class="meta">Stand: 21.03.2026</div> <h2>1. Anfrage zur Kontolöschung</h2> <p>Nutzerinnen und Nutzer von <strong>Signalix</strong> können die Löschung ihres Kontos sowie die Löschung der zugehörigen personenbezogenen Daten anfragen.</p> <p>Zur Anforderung einer Kontolöschung sende bitte eine E-Mail an:</p> <div class="contact"> <strong>Ricardo Pinto da Costa</strong><br /> E-Mail: <a href="mailto:signalix.kontakt@gmail.com">signalix.kontakt@gmail.com</a><br /> Betreff-Empfehlung: <strong>Signalix – Konto löschen</strong> </div> <h2>2. Welche Angaben in der Anfrage enthalten sein sollten</h2> <p>Damit die Anfrage korrekt zugeordnet werden kann, sollte die E-Mail möglichst Folgendes enthalten:</p> <ul> <li>die bei Signalix verwendete Telefonnummer</li> <li>optional weitere Angaben zur Identifikation, falls erforderlich</li> <li>eine klare Erklärung, dass das Signalix-Konto gelöscht werden soll</li> </ul> <div class="warning"> <strong>Wichtiger Hinweis:</strong> Zur Vermeidung unbefugter Löschungen kann vor der endgültigen Bearbeitung eine zusätzliche Verifizierung der Identität erforderlich sein. </div> <h2>3. Folgen der Kontolöschung</h2> <p>Nach erfolgreicher Bearbeitung der Anfrage wird das betroffene Signalix-Konto deaktiviert bzw. gelöscht. Soweit anwendbar, werden zugehörige personenbezogene Daten im Rahmen gesetzlicher Vorgaben gelöscht oder gesperrt.</p> <p>Bestimmte Daten können gegebenenfalls für einen begrenzten Zeitraum weiter gespeichert werden, sofern dies aus rechtlichen, sicherheitsbezogenen oder technisch notwendigen Gründen erforderlich ist.</p> <h2>4. Bearbeitungszeit</h2> <p>Anfragen zur Kontolöschung werden innerhalb eines angemessenen Zeitraums bearbeitet. Falls zusätzliche Informationen zur Verifizierung erforderlich sind, kann sich die Bearbeitungszeit entsprechend verlängern.</p> <h2>5. Weitere Informationen</h2> <p>Weitere Informationen zur Verarbeitung personenbezogener Daten findest du in der <a href="./index.html">Datenschutzerklärung von Signalix</a>.</p> </section> <footer> © Signalix – Kontolöschung </footer> </div> </body> </html> ```
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Konto löschen – Signalix</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg:#0a0f1e;--surface:#111827;--border:#1e3a5f;--accent:#38bdf8;--accent2:#818cf8;--text:#e2e8f0;--muted:#64748b;--danger:#ef4444; }
+    body { background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-weight:300;min-height:100vh;padding:48px 24px 80px; }
+    .container { max-width:700px;margin:0 auto; }
+    nav { display:flex;gap:24px;margin-bottom:48px;border-bottom:1px solid var(--border);padding-bottom:16px; }
+    nav a { color:var(--muted);text-decoration:none;font-size:.9rem;transition:color .2s; }
+    nav a:hover, nav a.active { color:var(--accent); }
+    header { margin-bottom:48px;padding-bottom:32px;border-bottom:1px solid var(--border); }
+    .badge { display:inline-block;background:rgba(239,68,68,.1);color:var(--danger);border:1px solid rgba(239,68,68,.3);border-radius:20px;padding:4px 14px;font-size:.78rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:16px; }
+    header h1 { font-family:'DM Serif Display',serif;font-size:clamp(2rem,5vw,3rem);font-weight:400;line-height:1.15;margin-bottom:12px;background:linear-gradient(135deg,#ef4444,#818cf8);-webkit-background-clip:text;-webkit-text-fill-color:transparent; }
+    header p { color:var(--muted);font-size:.9rem; }
+    section { margin-bottom:44px; }
+    h2 { font-family:'DM Serif Display',serif;font-weight:400;font-size:1.3rem;color:var(--accent);margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid var(--border); }
+    p { font-size:.95rem;line-height:1.85;margin-bottom:12px; }
+    ol { padding-left:20px;margin-bottom:12px; }
+    ol li { font-size:.95rem;line-height:1.85;margin-bottom:8px; }
+    .step-card { background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px 24px;margin-bottom:12px;display:flex;gap:16px;align-items:flex-start; }
+    .step-number { background:rgba(56,189,248,.15);color:var(--accent);border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;font-weight:500;flex-shrink:0;font-size:.9rem; }
+    .warning-box { background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.3);border-radius:12px;padding:20px 24px;margin-bottom:20px; }
+    .warning-box p { color:#fca5a5;margin:0; }
+    .contact-box { background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:12px;padding:24px 28px; }
+    a { color:var(--accent);text-decoration:none; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <nav>
+    <a href="index.html">Datenschutz</a>
+    <a href="agb.html">AGB</a>
+    <a href="impressum.html">Impressum</a>
+    <a href="delete-account.html" class="active">Konto löschen</a>
+  </nav>
+
+  <header>
+    <div class="badge">Konto löschen</div>
+    <h1>Konto löschen</h1>
+    <p>So kannst du dein Signalix-Konto und alle zugehörigen Daten dauerhaft löschen.</p>
+  </header>
+
+  <section>
+    <h2>Option 1 – Direkt in der App</h2>
+
+    <div class="step-card">
+      <div class="step-number">1</div>
+      <p>Öffne die <strong>Signalix App</strong></p>
+    </div>
+    <div class="step-card">
+      <div class="step-number">2</div>
+      <p>Gehe zu <strong>Einstellungen</strong></p>
+    </div>
+    <div class="step-card">
+      <div class="step-number">3</div>
+      <p>Tippe auf <strong>Konto löschen</strong></p>
+    </div>
+    <div class="step-card">
+      <div class="step-number">4</div>
+      <p>Bestätige die Löschung — sie ist unwiderruflich</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Option 2 – Per E-Mail</h2>
+    <p>Sende eine Anfrage an:</p>
+    <div class="contact-box">
+      <p><a href="mailto:signalix.kontakt@gmail.com">signalix.kontakt@gmail.com</a><br />
+      Betreff: <strong>Kontolöschung Signalix</strong><br /><br />
+      Wir bestätigen und löschen dein Konto innerhalb von <strong>72 Stunden</strong>.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Was wird gelöscht?</h2>
+    <div class="warning-box">
+      <p>⚠️ Die Löschung ist unwiderruflich und kann nicht rückgängig gemacht werden.</p>
+    </div>
+    <p>Nach der Löschung werden innerhalb von <strong>30 Tagen</strong> folgende Daten gelöscht:</p>
+    <ol>
+      <li>Dein Konto und deine Telefonnummer</li>
+      <li>Alle deine Nachrichten und Medien</li>
+      <li>Deine Kontaktliste und Gruppen</li>
+      <li>Dein Abo-Status (Signalix Pro)</li>
+      <li>Alle technischen Daten die mit deinem Konto verknüpft sind</li>
+    </ol>
+    <p class="muted">Hinweis: Ein aktives Signalix Pro Abonnement muss separat über Google Play gekündigt werden.</p>
+  </section>
+
+</div>
+</body>
+</html>

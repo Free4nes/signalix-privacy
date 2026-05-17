@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datenschutzerklärung – Signalix</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0a0f1e;
+      --surface: #111827;
+      --border: #1e3a5f;
+      --accent: #38bdf8;
+      --accent2: #818cf8;
+      --text: #e2e8f0;
+      --muted: #64748b;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      min-height: 100vh;
+      padding: 48px 24px 80px;
+    }
+
+    .container { max-width: 700px; margin: 0 auto; }
+
+    nav {
+      display: flex;
+      gap: 24px;
+      margin-bottom: 48px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+    }
+
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+
+    nav a:hover, nav a.active { color: var(--accent); }
+
+    header {
+      margin-bottom: 48px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(56,189,248,0.1);
+      color: var(--accent);
+      border: 1px solid rgba(56,189,248,0.3);
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 0.78rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    header h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 400;
+      line-height: 1.15;
+      margin-bottom: 12px;
+      background: linear-gradient(135deg, #38bdf8, #818cf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    header p { color: var(--muted); font-size: 0.9rem; }
+
+    section { margin-bottom: 44px; }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-weight: 400;
+      font-size: 1.3rem;
+      color: var(--accent);
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p { font-size: 0.95rem; line-height: 1.85; margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    ul li { font-size: 0.95rem; line-height: 1.85; margin-bottom: 5px; }
+
+    .info-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 12px;
+    }
+
+    .info-card strong {
+      color: var(--accent);
+      font-weight: 500;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .info-card p { color: var(--muted); font-size: 0.88rem; margin: 0 0 6px; }
+    .info-card a { color: var(--accent2); font-size: 0.85rem; text-decoration: none; }
+
+    .contact-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 12px;
+      padding: 24px 28px;
+    }
+
+    .contact-box a { color: var(--accent); text-decoration: none; }
+    a { color: var(--accent); text-decoration: none; }
+    .muted { color: var(--muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <nav>
+    <a href="index.html" class="active">Datenschutz</a>
+    <a href="agb.html">AGB</a>
+    <a href="impressum.html">Impressum</a>
+    <a href="delete-account.html">Konto löschen</a>
+  </nav>
+
+  <header>
+    <div class="badge">Datenschutzerklärung</div>
+    <h1>Signalix Messenger</h1>
+    <p>Stand: Mai 2026 &nbsp;·&nbsp; Gilt für die Android-App Signalix</p>
+  </header>
+
+  <section>
+    <h2>1. Verantwortlicher</h2>
+    <div class="contact-box">
+      <p><strong style="color:var(--text)">Ricardo João Pinto da Costa</strong><br />
+      Wiener Straße 2<br />
+      70469 Stuttgart<br />
+      Deutschland<br /><br />
+      E-Mail: <a href="mailto:signalix.kontakt@gmail.com">signalix.kontakt@gmail.com</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>2. Geltungsbereich</h2>
+    <p>Diese Datenschutzerklärung gilt für die mobile App <strong>Signalix</strong> sowie alle damit verbundenen technischen Systeme und Dienste. Signalix befindet sich derzeit im Rahmen eines geschlossenen Tests. Diese Erklärung gilt sowohl für den Testbetrieb als auch für einen späteren regulären Betrieb.</p>
+  </section>
+
+  <section>
+    <h2>3. Welche Daten werden verarbeitet?</h2>
+
+    <div class="info-card">
+      <strong>Registrierungs- & Anmeldedaten</strong>
+      <p>Telefonnummer, OTP-Verifizierungsdaten, technische Sitzungsinformationen</p>
+    </div>
+
+    <div class="info-card">
+      <strong>Kommunikationsdaten</strong>
+      <p>Nachrichteninhalte (Ende-zu-Ende-verschlüsselt), Zeitstempel, Statusinfos (gesendet/zugestellt/gelesen), Medieninhalte (Bilder, Sprachaufnahmen)</p>
+    </div>
+
+    <div class="info-card">
+      <strong>Technische Daten</strong>
+      <p>Geräteinformationen, Push-Token für Benachrichtigungen, technische Verbindungsdaten, Protokoll- und Fehlerdaten</p>
+    </div>
+
+    <div class="info-card">
+      <strong>Nutzungs- & Sicherheitsdaten</strong>
+      <p>Daten zur Missbrauchserkennung, Stabilitäts- und Fehleranalyse</p>
+    </div>
+
+    <div class="info-card">
+      <strong>Abo- & Kaufdaten</strong>
+      <p>Abo-Status, Kaufhistorie (verwaltet über RevenueCat und Google Play Billing)</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>4. Zwecke der Verarbeitung</h2>
+    <ul>
+      <li>Bereitstellung und Betrieb der App</li>
+      <li>Registrierung und Anmeldung via Telefonnummer und OTP</li>
+      <li>Technische Übermittlung, Speicherung und Darstellung von Nachrichten und Medien</li>
+      <li>Zustellung von Push-Benachrichtigungen</li>
+      <li>Verwaltung von Abonnements (Signalix Pro)</li>
+      <li>Sicherstellung der Stabilität und Sicherheit der App</li>
+      <li>Verhinderung von Missbrauch und unbefugter Nutzung</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. Drittanbieter</h2>
+
+    <div class="info-card">
+      <strong>Twilio Inc. (SMS-Verifizierung)</strong>
+      <p>Für den Versand und die Prüfung von Einmalcodes (OTP) zur Anmeldung. Übermittelt werden: Telefonnummer, Verifizierungsstatus, Zeitpunkt.<br />
+      Twilio Inc., USA – Übertragung auf Basis von Standardvertragsklauseln.</p>
+      <a href="https://www.twilio.com/en-us/legal/privacy" target="_blank">Datenschutzrichtlinie von Twilio →</a>
+    </div>
+
+    <div class="info-card">
+      <strong>RevenueCat Inc. (Abo-Verwaltung)</strong>
+      <p>Für die Verwaltung von In-App-Abonnements und Käufen.<br />
+      RevenueCat Inc., USA.</p>
+      <a href="https://www.revenuecat.com/privacy" target="_blank">Datenschutzrichtlinie von RevenueCat →</a>
+    </div>
+
+    <div class="info-card">
+      <strong>Google Play Billing (Zahlungsabwicklung)</strong>
+      <p>Für die Abwicklung von Zahlungen über den Google Play Store.<br />
+      Google LLC, USA.</p>
+      <a href="https://policies.google.com/privacy" target="_blank">Datenschutzrichtlinie von Google →</a>
+    </div>
+
+    <div class="info-card">
+      <strong>Hetzner Online GmbH (Hosting) – geplant</strong>
+      <p>Serverhosting in Deutschland (Nürnberg oder Falkenstein). Wird nach Produktivbetrieb eingetragen. Hetzner Online GmbH, Deutschland – Datenverarbeitung innerhalb der EU.</p>
+      <a href="https://www.hetzner.com/legal/privacy-policy" target="_blank">Datenschutzrichtlinie von Hetzner →</a>
+    </div>
+
+    <div class="info-card">
+      <strong>Push-Benachrichtigungen (FCM / Expo Push)</strong>
+      <p>Für die Zustellung von Benachrichtigungen werden Push-Tokens verarbeitet.<br />
+      Google LLC / Expo (USA).</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>6. Rechtsgrundlagen (DSGVO)</h2>
+    <ul>
+      <li><strong>Art. 6 Abs. 1 lit. b DSGVO</strong> – Vertragserfüllung (Bereitstellung der App-Funktionen)</li>
+      <li><strong>Art. 6 Abs. 1 lit. f DSGVO</strong> – Berechtigtes Interesse (Sicherheit, Stabilität, Missbrauchsschutz)</li>
+      <li><strong>Art. 6 Abs. 1 lit. a DSGVO</strong> – Einwilligung (z.B. für optionale Berechtigungen)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Datenspeicherung</h2>
+    <ul>
+      <li>Registrierungs- und Verifizierungsdaten: so lange das Konto aktiv ist</li>
+      <li>Kommunikationsdaten: bis zur Löschung durch den Nutzer</li>
+      <li>Technische Protokolle: max. 90 Tage</li>
+      <li>Nach Kontolöschung: vollständige Löschung aller Daten innerhalb von 30 Tagen</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>8. Ihre Rechte (DSGVO)</h2>
+    <ul>
+      <li><strong>Auskunft</strong> über gespeicherte Daten</li>
+      <li><strong>Berichtigung</strong> unrichtiger Daten</li>
+      <li><strong>Löschung</strong> – direkt in der App oder per E-Mail</li>
+      <li><strong>Datenportabilität</strong> – Daten auf Anfrage erhältlich</li>
+      <li><strong>Widerspruch</strong> gegen die Verarbeitung</li>
+      <li><strong>Beschwerde</strong> bei der zuständigen Datenschutzaufsichtsbehörde</li>
+    </ul>
+    <p>Für alle Anfragen: <a href="mailto:signalix.kontakt@gmail.com">signalix.kontakt@gmail.com</a></p>
+  </section>
+
+  <section id="konto-loeschen">
+    <h2>9. Konto löschen</h2>
+    <p>Du kannst dein Signalix-Konto und alle zugehörigen Daten jederzeit löschen:</p>
+    <ul>
+      <li>Öffne die Signalix App</li>
+      <li>Gehe zu <strong>Einstellungen</strong></li>
+      <li>Tippe auf <strong>Konto löschen</strong></li>
+      <li>Bestätige die Löschung</li>
+    </ul>
+    <p>Alle Daten werden innerhalb von <strong>30 Tagen</strong> vollständig gelöscht. Alternativ per E-Mail: <a href="mailto:signalix.kontakt@gmail.com">signalix.kontakt@gmail.com</a></p>
+  </section>
+
+  <section>
+    <h2>10. Minderjährige</h2>
+    <p>Signalix richtet sich nicht an Kinder unter 13 Jahren. Sollten wir Kenntnis davon erhalten, dass Daten von Minderjährigen unzulässig erhoben wurden, werden wir diese umgehend löschen.</p>
+  </section>
+
+  <section>
+    <h2>11. Änderungen</h2>
+    <p>Diese Datenschutzerklärung kann bei Bedarf aktualisiert werden. Die aktuelle Version ist stets unter <strong>free4nes.github.io/signalix-privacy/</strong> abrufbar.</p>
+  </section>
+
+</div>
+</body>
+</html>
